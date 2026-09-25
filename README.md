@@ -4,7 +4,7 @@ A robot simulation using Python and PyBullet.
 
 ## Requirements
 
-Python and Git. Tested on macOS Apple Silicon with Python 3.14.
+Python and Git.
 
 ## Downloading
 
@@ -47,8 +47,6 @@ python main.py
 ```
 
 After starting up the program a Panda robot will appear as well as 3 cubes and 3 checkpoints. The robot will then start to move towards the first cube slowly. After both fingers touch the cube, a fixed constraint attaches it to the gripper. The robot carries it to the matching checkpoint, lowers it and removes the constraint to release it. It repeats this for all three cubes and prints the score. At the end, the Panda stays above the last checkpoint and the window remains open. To exit the programme, press Ctrl+C in the terminal.
-
-This is a learning simulation. Grasping is contact-checked and constraint-assisted, and motion does not include obstacle avoidance. Mouse object dragging and keyboard simulation shortcuts are disabled.
 
 ## Tests
 
